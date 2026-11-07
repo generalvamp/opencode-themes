@@ -1,0 +1,379 @@
+{
+  "base": {
+    "categorical": [
+      "cyan"
+    ],
+    "text": {
+      "base": "$hue.neutral.200",
+      "muted": "$hue.neutral.400",
+      "action": {
+        "primary": {
+          "base": "#ffe6a7",
+          "$focused": "#432818",
+          "$selected": "#99582a",
+          "$disabled": "#bb9457"
+        },
+        "secondary": {
+          "base": "#bb9457",
+          "$hovered": "#ffe6a7"
+        },
+        "destructive": {
+          "base": "#432818",
+          "$disabled": "#bb9457"
+        }
+      },
+      "formfield": {
+        "base": "#ffe6a7",
+        "$hovered": "#99582a",
+        "$focused": "#99582a",
+        "$pressed": "#99582a",
+        "$selected": "#99582a",
+        "$disabled": "#bb9457"
+      },
+      "feedback": {
+        "error": {
+          "base": "#6f1d1b"
+        },
+        "warning": {
+          "base": "#99582a"
+        },
+        "success": {
+          "base": "#99582a"
+        },
+        "info": {
+          "base": "#bb9457"
+        }
+      }
+    },
+    "background": {
+      "base": "$hue.neutral.800",
+      "raised": {
+        "base": "$hue.neutral.700",
+        "high": "$hue.neutral.600",
+        "max": "$hue.neutral.500"
+      },
+      "action": {
+        "primary": {
+          "base": "transparent",
+          "$hovered": "#6f1d1b",
+          "$focused": "#99582a",
+          "$selected": "transparent"
+        },
+        "secondary": {
+          "base": "transparent"
+        },
+        "destructive": {
+          "base": "#6f1d1b"
+        }
+      },
+      "formfield": {
+        "base": "#432818"
+      },
+      "feedback": {
+        "error": {
+          "base": "#432818"
+        },
+        "warning": {
+          "base": "#432818"
+        },
+        "success": {
+          "base": "#432818"
+        },
+        "info": {
+          "base": "#432818"
+        }
+      }
+    },
+    "border": {
+      "base": "#bb9457"
+    },
+    "scrollbar": {
+      "base": "$hue.interactive.200"
+    },
+    "diff": {
+      "text": {
+        "added": "#bb9457",
+        "removed": "#6f1d1b",
+        "context": "#bb9457",
+        "hunkHeader": "#bb9457"
+      },
+      "background": {
+        "added": "$hue.cyan.100",
+        "removed": "#6f1d1b",
+        "context": "$hue.neutral.600"
+      },
+      "highlight": {
+        "added": "#bb9457",
+        "removed": "#6f1d1b"
+      },
+      "lineNumber": {
+        "text": "#ffe6a7",
+        "background": {
+          "added": "$hue.cyan.100",
+          "removed": "#6f1d1b"
+        }
+      }
+    },
+    "syntax": {
+      "comment": "#bb9457",
+      "keyword": "$hue.gray.100",
+      "function": "#99582a",
+      "variable": "$hue.gray.200",
+      "string": "#99582a",
+      "number": "$hue.red.100",
+      "type": "#bb9457",
+      "operator": "#bb9457",
+      "punctuation": "#ffe6a7"
+    },
+    "markdown": {
+      "text": "#ffe6a7",
+      "heading": "#99582a",
+      "link": "#99582a",
+      "linkText": "#bb9457",
+      "code": "#99582a",
+      "blockQuote": "#bb9457",
+      "emphasis": "#bb9457",
+      "strong": "#99582a",
+      "horizontalRule": "#bb9457",
+      "listItem": "#99582a",
+      "listEnumeration": "#bb9457",
+      "image": "#99582a",
+      "imageText": "#bb9457",
+      "codeBlock": "#ffe6a7"
+    },
+    "@dialog": {
+      "background": {
+        "base": "$background.raised.base",
+        "action": {
+          "primary": {
+            "$hovered": "$background.raised.high",
+            "$focused": "$hue.interactive.200"
+          }
+        }
+      }
+    }
+  },
+  "light": {
+    "hue": {
+      "gray": {
+        "100": "#ffe6a7",
+        "200": "#bb9457",
+        "300": "#99582a",
+        "400": "#6f1d1b",
+        "500": "#432818",
+        "600": "#432818",
+        "700": "#432818",
+        "800": "#432818",
+        "900": "#432818"
+      },
+      "red": {
+        "100": "#6f1d1b",
+        "200": "#6f1d1b",
+        "300": "#6f1d1b",
+        "400": "#6f1d1b",
+        "500": "#6f1d1b",
+        "600": "#6f1d1b",
+        "700": "#6f1d1b",
+        "800": "#6f1d1b",
+        "900": "#6f1d1b"
+      },
+      "orange": {
+        "100": "#99582a",
+        "200": "#99582a",
+        "300": "#99582a",
+        "400": "#99582a",
+        "500": "#99582a",
+        "600": "#99582a",
+        "700": "#99582a",
+        "800": "#99582a",
+        "900": "#99582a"
+      },
+      "yellow": {
+        "100": "#bb9457",
+        "200": "#bb9457",
+        "300": "#bb9457",
+        "400": "#bb9457",
+        "500": "#bb9457",
+        "600": "#bb9457",
+        "700": "#bb9457",
+        "800": "#bb9457",
+        "900": "#bb9457"
+      },
+      "green": {
+        "100": "#ffe6a7",
+        "200": "#ffe6a7",
+        "300": "#ffe6a7",
+        "400": "#ffe6a7",
+        "500": "#ffe6a7",
+        "600": "#ffe6a7",
+        "700": "#ffe6a7",
+        "800": "#ffe6a7",
+        "900": "#ffe6a7"
+      },
+      "blue": {
+        "100": "#432818",
+        "200": "#432818",
+        "300": "#432818",
+        "400": "#432818",
+        "500": "#432818",
+        "600": "#432818",
+        "700": "#432818",
+        "800": "#432818",
+        "900": "#432818"
+      },
+      "purple": {
+        "100": "#6f1d1b",
+        "200": "#6f1d1b",
+        "300": "#6f1d1b",
+        "400": "#6f1d1b",
+        "500": "#6f1d1b",
+        "600": "#6f1d1b",
+        "700": "#6f1d1b",
+        "800": "#6f1d1b",
+        "900": "#6f1d1b"
+      },
+      "accent": "$hue.purple",
+      "interactive": "$hue.yellow",
+      "neutral": "$hue.gray"
+    },
+    "categorical": [
+      "blue",
+      "purple",
+      "yellow",
+      "orange",
+      "red",
+      "green"
+    ],
+    "text": {
+      "base": "#ffe6a7",
+      "muted": "#bb9457",
+      "feedback": {
+        "error": {
+          "base": "$hue.red.200"
+        }
+      }
+    },
+    "background": {
+      "base": "#432818",
+      "raised": {
+        "base": "#6f1d1b",
+        "high": "#99582a",
+        "max": "#bb9457"
+      },
+      "action": {
+        "destructive": {
+          "base": "$hue.red.200"
+        }
+      }
+    },
+    "scrollbar": {
+      "base": "#99582a"
+    },
+    "diff": {
+      "text": {
+        "added": "#99582a"
+      },
+      "background": {
+        "added": "#432818",
+        "context": "#6f1d1b"
+      },
+      "highlight": {
+        "added": "#99582a"
+      },
+      "lineNumber": {
+        "text": "#bb9457",
+        "background": {
+          "added": "#432818"
+        }
+      }
+    },
+    "syntax": {
+      "keyword": "#99582a",
+      "variable": "$hue.red.200",
+      "number": "#99582a"
+    },
+    "@dialog": {
+      "background": {
+        "base": "#6f1d1b",
+        "action": {
+          "primary": {
+            "$hovered": "#99582a"
+          }
+        }
+      }
+    }
+  },
+  "dark": {
+    "hue": {
+      "gray": {
+        "100": "#ffe6a7",
+        "200": "#bb9457",
+        "300": "#99582a",
+        "400": "#e9d3d0",
+        "500": "#432818",
+        "600": "#432818",
+        "700": "#432818",
+        "800": "#432818",
+        "900": "#432818"
+      },
+      "red": {
+        "100": "#ca4540",
+        "200": "#6f1d1b",
+        "300": "#6f1d1b",
+        "400": "#6f1d1b",
+        "500": "#6f1d1b",
+        "600": "#6f1d1b",
+        "700": "#6f1d1b",
+        "800": "#6f1d1b",
+        "900": "#6f1d1b"
+      },
+      "orange": {
+        "100": "#99582a",
+        "200": "#99582a",
+        "300": "#99582a",
+        "400": "#99582a",
+        "500": "#99582a",
+        "600": "#99582a",
+        "700": "#99582a",
+        "800": "#99582a",
+        "900": "#99582a"
+      },
+      "yellow": {
+        "100": "#bb9457",
+        "200": "#bb9457",
+        "300": "#bb9457",
+        "400": "#bb9457",
+        "500": "#bb9457",
+        "600": "#bb9457",
+        "700": "#bb9457",
+        "800": "#bb9457",
+        "900": "#bb9457"
+      },
+      "green": {
+        "100": "#ffe6a7",
+        "200": "#ffe6a7",
+        "300": "#ffe6a7",
+        "400": "#ffe6a7",
+        "500": "#ffe6a7",
+        "600": "#ffe6a7",
+        "700": "#ffe6a7",
+        "800": "#ffe6a7",
+        "900": "#ffe6a7"
+      },
+      "cyan": {
+        "100": "#0d4925",
+        "200": "#ff8500",
+        "300": "#d03132",
+        "400": "#c4a0ff",
+        "500": "#9fadf1",
+        "600": "#7eb3c3",
+        "700": "#d9a8ee",
+        "800": "#f6adf9",
+        "900": "#ff9ff6"
+      },
+      "accent": "$hue.red",
+      "interactive": "$hue.yellow",
+      "neutral": "$hue.gray"
+    }
+  }
+}
